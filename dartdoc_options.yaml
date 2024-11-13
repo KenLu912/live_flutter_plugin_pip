@@ -1,0 +1,8 @@
+dartdoc:
+  nodoc: ['lib/manager/tx_live_manager.dart']
+  ignore:
+    - ambiguous-doc-reference
+  errors:
+    - unresolved-doc-reference
+  warnings:
+    - tool-error

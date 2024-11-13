@@ -1,0 +1,28 @@
+name: live_flutter_plugin
+description: The solution allows anchors to compete with each other and co-anchor with viewers in real time, with a global end-to-end latency of below 300 ms on average.
+version: 11.9.0
+repository: https://github.com/LiteAVSDK/Live_Flutter
+homepage: https://cloud.tencent.com/document/product/454
+
+environment:
+  sdk: ">=2.15.0 <4.0.0"
+  flutter: ">=1.12.0"
+
+dependencies:
+  uuid: ^4.4.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.tencent.live
+        pluginClass: TencentLiveCloudPlugin
+      ios:
+        pluginClass: TencentLiveCloudPlugin
