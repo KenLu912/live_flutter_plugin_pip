@@ -186,7 +186,7 @@ extension V2TXLivePremierPlugin {
         
         enablePIPMode = enable
         
-        result(nil)
+        result(NSNumber(value: V2TXLiveCode.TXLIVE_OK.rawValue))
     }
 }
 
